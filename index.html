@@ -10,17 +10,17 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <header id="header">
-      This is a Landing Page 
-      <img id="header-img" src="Images/IMG_5372.JPG" alt="Photo of a puppy"/ width="300px">
+      <div>This is a Landing Page</div> 
+      <div><img id="header-img" src="Images/IMG_5372.JPG" alt="Photo of a puppy"/ width="300px"></div>
       
-      <nav id="nav-bar">
+      <div><nav id="nav-bar">
         <ul>
           <li><a class="nav-link" href="#header">Index</a></li>
           <li><a class="nav-link" href="#video">Video</a></li>
           <li><a class="nav-link" href="#header">Contact</a></li>
         </ul>
-      </nav>
-    
+      </nav></div>
+
     </header>
     
     <div>
@@ -28,9 +28,9 @@
     </div>
 
     <div>
-      <form id="form" action="">
-        <input id="email" type="email" require placeholder="We need your email"></input>
-      <input id="submit" type="submit"> Submit the email </input>
+      <form id="form" action="" method="post">
+        <input id="email" type="email" name="email" require placeholder="We need your email"></input>
+        <input id="submit" type="submit">Submit the email</input>
       </form>
     </div>
 
